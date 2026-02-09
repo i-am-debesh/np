@@ -5,10 +5,10 @@ const mainTxt = document.getElementById('main-txt');
 let yPadding = 30;
 let nPadding = 8;
 let counter = 0;
-const noTexts = ['please🥺','Thoda soch ke dekho pika🥺','Please🥺','Ab aisa karegi?😟',`aren't you a good girl?🥺`, 'Kitkat khawabo🥺', 'Kinder Joy?🥺', 'Please🥺','please pika🥺','NehaPikaaaaa🥺',`:(`,':((('];
+const noTexts = ['please🥺','Thoda to soch ke dekho pika🥺','Please🥺','Ab aisa karegi?😟',`aren't you a good girl?🥺`, 'Kitkat khawabo🥺', 'Kinder Joy?🥺', 'Please🥺','please pika🥺','NehaPikaaaaa🥺',`:(`,':((('];
 yesBtn.style.padding = `${yPadding}px 79px`;
 yesBtn.style.fontSize = '20px';
-const vDay = 9;
+const vDay = 14;
 function checkForDate() {
     const date = new Date();
     console.log(date.getDate());
