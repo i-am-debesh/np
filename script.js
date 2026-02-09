@@ -13,7 +13,10 @@ function checkForDate() {
     const date = new Date();
     console.log(date.getDate());
     if(date.getDate() < vDay) {
-        document.body.innerHTML = '<h1 style="margin-top: 50vh; color: white">Ato Tara kiser?</h>';
+        document.body.innerHTML = `<h1 style="margin-top: 50vh; color: white">Ato Tara kiser?</h>
+        <br>
+        <a style="font-size: 20px" href="https://chat-app-61c8.onrender.com/chatroom" target='blank'>click here to send message for Debesh</a>
+        `;
         document.body.style.backgroundColor = 'black';
     }
     
