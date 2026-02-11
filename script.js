@@ -15,7 +15,7 @@ function checkForDate() {
     if(date.getDate() < vDay) {
         document.body.innerHTML = `<h1 style="margin-top: 50vh; color: white">Ato Tara kiser?</h>
         <br>
-        <a style="font-size: 20px" href="https://chat-app-61c8.onrender.com/chatroom" target='blank'>leave a message for Debesh</a>
+        <a style="font-size: 20px" href="https://chat-app-61c8.onrender.com/login" target='blank'>leave a message for Debesh</a>
         `;
         document.body.style.backgroundColor = 'black';
     }
